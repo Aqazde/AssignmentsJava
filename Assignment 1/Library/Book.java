@@ -1,6 +1,6 @@
 public class Book {
-    private String name;
-    private String author;
+    public String name;
+    public String author;
 
     public Book(String name, String author) {
         setAuthor(author);

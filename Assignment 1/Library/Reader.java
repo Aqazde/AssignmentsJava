@@ -1,12 +1,12 @@
 
 public class Reader {
-    private String fullname;
-    private int libraryCardNumber;
-    private String faculty;
-    private String dateOfBirth;
-    private String phoneNumber;
-    private String name;
-    private String author;
+    public String fullname;
+    public int libraryCardNumber;
+    public String faculty;
+    public String dateOfBirth;
+    public String phoneNumber;
+    public String name;
+    public String author;
     public Reader(String fullname, int cardNumber, String faculty, String dateOfBirth, String phoneNumber) {
         setCardNumber(cardNumber);
         setFaculty(faculty);
